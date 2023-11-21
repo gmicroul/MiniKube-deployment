@@ -13,6 +13,7 @@ http://127.0.0.1:55555/api/v1/namespaces/kubernetes-dashboard/services/http:kube
   sudo  kubectl proxy --port=8003 --address='0.0.0.0' --accept-hosts='^.*' &
 
   sudo kubectl cluster-info
+  
 Kubernetes control plane is running at https://192.168.49.2:8443
 CoreDNS is running at https://192.168.49.2:8443/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
 

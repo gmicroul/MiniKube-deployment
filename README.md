@@ -20,3 +20,13 @@ CoreDNS is running at https://192.168.49.2:8443/api/v1/namespaces/kube-system/se
 To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 
 sudo kubectl apply -f ingress-nginx-deploy.yaml
+
+<img width="1665" alt="image" src="https://github.com/gmicroul/MiniKube-deployment/assets/121873438/d4312e19-45a3-4952-a740-aa84428a265e">
+
+<img width="1665" alt="image" src="https://github.com/gmicroul/MiniKube-deployment/assets/121873438/bd91d7b0-8132-4d7b-99e6-338a6757360d">
+
+registry.cn-hangzhou.aliyuncs.com/google_containers/metrics-server:v0.6.4
+
+- '--kubelet-insecure-tls'
+
+

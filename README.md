@@ -29,4 +29,9 @@ registry.cn-hangzhou.aliyuncs.com/google_containers/metrics-server:v0.6.4
 
 - '--kubelet-insecure-tls'
 
+Before deploy a ingress application.
+sudo kubectl delete -A ValidatingWebhookConfiguration ingress-nginx-admission
+
+
+
 
